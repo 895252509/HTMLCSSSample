@@ -1,4 +1,6 @@
 # HTMLCSSSample
+![html5](http://www.runoob.com/wp-content/uploads/2013/07/pic_html5.gif)
+![css3](https://imgsa.baidu.com/baike/c0%3Dbaike72%2C5%2C5%2C72%2C24/sign=c1bd269965d0f703f2bf9d8e69933a58/95eef01f3a292df5ab50dc9bbb315c6035a873a8.jpg)
 重新学习HTML5和CSS3的代码示例
 
 1. <!-- ... --> 注释
