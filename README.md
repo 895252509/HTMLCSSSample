@@ -6,7 +6,7 @@
 重新学习HTML5和CSS3的代码示例
 
 1.   `<!--...-->	`定义注释。
-    1. 定义和用法
+     * 定义和用法
         ```html
         <script type="text/javascript">
         <!--
