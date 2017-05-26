@@ -6,6 +6,21 @@
 重新学习HTML5和CSS3的代码示例
 
 1.   `<!--...-->	`定义注释。
+    * 定义和用法
+        ```html
+        <script type="text/javascript">
+        <!--
+        function displayMsg()
+        {
+            alert("Hello World!")
+        }
+        //-->
+        </script>
+        ```
+    * 属性
+        无
+    * 事件
+        无
 2.   `<!DOCTYPE> 	`定义文档类型。
 3.   `<a>			`定义锚。
 4.   `<abbr>		`定义缩写。
