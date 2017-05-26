@@ -26,12 +26,33 @@
      声明必须在HTML文档第一行，位于`<html>`标签之前  
      声明不是HTML标签
      * __HTML 元素和文档类型（Doctype）__  
-     元素和文档类型对照表
+     [元素和文档类型对照表](http://www.w3school.com.cn/tags/html_ref_dtd.asp)  
      * __提示和注释__  
      声明没有结束标签
      对大小写不敏感
-     * __常用的 DOCTYPE 声明__
-        * __HTML 5__         
+     * __常用的 DOCTYPE 声明__   
+        * __HTML 5__       
+        ```html
+        <!DOCTYPE html>
+        ```
+        * __HTML 4.01 Strict__        
+        该 DTD 包含所有 HTML 元素和属性，但不包括展示性的和弃用的元素（比如 font）。不允许框架集（Framesets）。
+        ```html
+        <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+        ```
+        * __HTML 4.01 Transitional__  
+        该 DTD 包含所有 HTML 元素和属性，包括展示性的和弃用的元素（比如 font）。不允许框架集（Framesets）。  
+        ```html
+        <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+        ``` 
+        * __HTML 4.01 Frameset__  
+        该 DTD 等同于 HTML 4.01 Transitional，但允许框架集内容。  
+        ```html
+        <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+        ```
+        * __XHTML 1.x+ 请参照[w3chool](http://www.w3school.com.cn/tags/tag_doctype.asp)该项文档__
+
+
 3.   `<a>			`定义锚。
 4.   `<abbr>		`定义缩写。
 5.   `<acronym>		`定义只取首字母的缩写。
